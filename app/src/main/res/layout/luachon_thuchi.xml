@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_weight="1.4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Mời bạn lựa chọn"
+            android:textSize="20dp"
+            android:padding="15dp"
+            android:gravity="center"
+            android:textColor="@color/colorGreen"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_weight="1.2"
+            android:id="@+id/BamDeChi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Chi"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:background="@color/colorGray"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_weight="1.2"
+            android:id="@+id/BamDeThu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Thu"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:background="@color/colorGray"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_weight="1.2"
+            android:id="@+id/BamDeXemThongKe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Xem thống kê"
+            android:gravity="center"
+            android:textSize="50sp"
+            android:background="@color/colorGray"/>
+    </LinearLayout>
+</LinearLayout>
